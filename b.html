@@ -1,1 +1,23 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "  http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns="  http://www.w3.org/1999/xhtml"> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <title>星星屏保</title> <style type="text/css">  <!-- body { background-color:#000 } .example { position:absolute; width:2px; height:2px; background-color:#FFFFFF; top:250px; left:500px; font-size:1px; z-index:10; } --> </style> <script language="javascript">  <!-- var i , iXMin , iXMax , iYMin , iYMax , iXCenter , iYCenter , iInterval , iStarNumber, star ; iStarNumber = 30 ; //星星的个数 iXMin=0 ; iYMin=0 ; iXMax=1200 ; iYMax=600 ; //X,Y轴的有效区域 iXCenter=(iXMin+iXMax)/2 ; iYCenter=(iYMin+iYMax)/2 ; //屏幕的中央位置 var iXBegin = new Array (iXCenter+10 , iXCenter-6 , iXCenter+6 , iXCenter-12 , iXCenter-7 , iXCenter-5 , iXCenter+1 , iXCenter-15 , iXCenter-4 , iXCenter+9) ; var iYBegin = new Array (iYCenter-2 , iYCenter+6 , iYCenter-8 , iYCenter+9 , iYCenter+7 , iYCenter-5 , iYCenter+3 , iYCenter+7 , iYCenter+9 , iYCenter-5) ; //星星出现的起始位置 var iX = new Array (iStarNumber) ; var iY = new Array (iStarNumber) ; for( i=0 ; i<iStarNumber ; i++ ) { iX[i] = iXBegin[i] ; iY[i] = iYBegin[i] ; } //分别记录星星的当前位置 var iXDelta = new Array (5,8,-2,-8,9,-11,13,8,-9,6) ; var iYDelta = new Array (-5,6,7,-8,3,8,-12,14,9,5) ; //星星移动时的X、Y轴增量 iInterval=100 ; //延时时间 function moveStar() { var i , elem ; for( i=0 ; i<iStarNumber ; i++ ) { iX[i] += iXDelta[i] ; iY[i] += iYDelta[i] ; if ( iX[i]>=iXMax || iX[i]<=iXMin || iY[i]>=iYMax || iY[i]<=iYMin ) { iX[i]=iXBegin[i] ; iY[i]=iYBegin[i] ; } elem=eval("star"+i) elem.style.posLeft = iX[i] ; elem.style.posTop = iY[i] ; } window.setTimeout( "moveStar()" , iInterval ) ; } --> </script> </head> <body onload="moveStar()"> <script language="javascript">  <!-- var i ;  for( i=0 ; i<iStarNumber ; i++ ) { document.write("<div name='star" + i + "' id='star" + i + "' class='example'></div>") ; } --> </script> </body> </html>
+<!doctype html>
+<html lang="zn">
+  <head>
+    <meta charset="UTF-8">
+    <title>Second webpage</title>
+    
+  </head>
+  <body>
+    <h1>我们是一个人吗</h1>
+ 
+    <h2>我们是一个人吗</h2>
+ 
+  <section>
+    <h2>我们是一个人吗</h2>
+    <section>
+	  <h3>我们是一个人吗</h3>
+    </section>
+  </section>
+    
+    
+    
+  </body>
+  </html>
