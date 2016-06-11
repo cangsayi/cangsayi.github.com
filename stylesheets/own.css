@@ -1,20 +1,44 @@
+@media only screen and (min-width:320px)
+{
+ body{
+  margin:2.6% 10%; 
+  background:rgb(250,250,250); 
+
+
+     }
+.hezi  {
+  background:rgb(247,247,247);
+  text-align:left;
+  padding-bottom:10px;
+       }
+h1 { 
+  text-align:center;
+ background:rgb(244,244,244);
+
+   } 
+  
+}
+
+
+
+
+@media only screen and (min-width:600px)
+{
 body{
   margin:2.6% 30%; 
   background:rgb(250,250,250); 
 
 
-}
+     }
 .hezi  {
   background:rgb(247,247,247);
   text-align:left;
   padding-bottom:10px;
-
-  
-  
-  
-}
-h1 { text-align:center;
+        }
+h1 {
+  text-align:center;
  background:rgb(244,244,244);
 
+   }
+
 }
-p { }
