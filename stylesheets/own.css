@@ -1,5 +1,6 @@
 body{
   margin:20px 400px; 
+   background:rgb(249,249,255);
 
 
 }
@@ -11,6 +12,6 @@ body{
   
 }
 h1 { text-align:center;
-  background:rgb(249,249,249);
+ 
 }
 p { }
