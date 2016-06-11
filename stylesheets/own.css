@@ -6,7 +6,7 @@ body{
 }
 .hezi  {
   background:rgb(247,247,247);
-  padding-left:5px;
+  text-left:5px;
   padding-bottom:10px;
 
   
@@ -15,6 +15,6 @@ body{
 }
 h1 { text-align:center;
  background:rgb(244,244,244);
- margin:2px 2px ;
+
 }
 p { }
