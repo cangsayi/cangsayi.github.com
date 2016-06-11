@@ -15,5 +15,6 @@ body{
 }
 h1 { text-align:center;
  background:rgb(244,244,244);
+ margin:2px 2px ;
 }
 p { }
