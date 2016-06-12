@@ -68,6 +68,7 @@ body {
   position:static;
         }
 h1 {
+ padding-left:3px;
   text-align:center;
  background:rgb(244,244,244);
 margin-top:0px;
