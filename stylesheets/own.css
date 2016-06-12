@@ -11,6 +11,7 @@ display:bolck;
    img {
     display:block;
     padding-left:0px;
+    float:left;
     
     
    }
@@ -63,6 +64,7 @@ height:200px;
           img {
     display:block;
     padding-left:0px;
+    float:left;
     
     
                }
