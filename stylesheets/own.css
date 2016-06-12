@@ -7,7 +7,7 @@ display:block;
 height:80px;
 width:300px;
 vertical-align:top;
- 
+ overflow:hidden;
          }
    img {
     display:block;
