@@ -31,9 +31,9 @@ body{
 
      }
 .hezi  {
-  margin:2.6% 30%; 
+  margin:2.6% 20%; 
   background:rgb(247,247,247);
-  text-align:left;
+   padding-left:5px;
   padding-bottom:10px;
         }
 h1 {
