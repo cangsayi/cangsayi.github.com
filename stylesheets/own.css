@@ -14,8 +14,8 @@ display:bolck;
      
      
     }
- body,html {
-  margin-top:0px;
+ body {
+  
  
   background:rgb(135,135,135); 
 
@@ -53,10 +53,8 @@ height:200px;
      margin:0.5em 0 0 0;
          }
  
-body,html {
- margin:0px;
- padding:0px;
- 
+body {
+ border:0px;
   background:rgb(135,135,135); 
 
 
