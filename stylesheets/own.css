@@ -9,6 +9,7 @@ display:bolck;
  
          }
     p{
+     padding-left:3px;
      text-indent:2em;
      margin:0.5em 0 0 0;
      
@@ -28,6 +29,7 @@ display:bolck;
   padding-bottom:10px;
        }
 h1 { 
+ padding-left:3px;
    text-align:center;
  background:rgb(244,244,244);
 margin:0px;
