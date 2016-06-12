@@ -60,7 +60,7 @@ margin:0px;
 {
 .hengfu {
  display:block;
-height:200px;
+height:220px;
 width:1238px;
  margin-bottom:0px;
 margin-left:55px;
@@ -97,18 +97,16 @@ body {
  float:left;
  
         }
-  aside {
+  .pb {
    display:block;
    background-color:red;
    margin-left:0px;
    margin-right:55px;
-   
-         
-         
-         
-        }
+
+       }
 h1 {
  display:block;
+ padding-top:5px;
 
   text-align:center;
  background:rgb(244,244,244);
