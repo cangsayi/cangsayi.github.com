@@ -57,6 +57,7 @@ margin:0px;
  display:block;
 height:200px;
  margin:0px 55px;
+ margin-right:55px;
  margin-bottom:0px;
 
  
@@ -91,6 +92,7 @@ body {
  
         }
   aside {
+   background:#fff;
    margin-left:0px;
    margin-right:55px;
          
