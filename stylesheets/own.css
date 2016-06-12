@@ -6,7 +6,7 @@ display:block;
  margin-left:3%;
 margin-right:3%;
 vertical-align:top;
- overflow:hidden;
+ overflow-x:hidden;
          }
    img {
     display:block;
