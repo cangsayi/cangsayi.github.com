@@ -4,8 +4,8 @@
 height:80px;
  width:100%;
  margin:0px;
-
- 
+display:bolck;
+ vertical-align:bottom;
  
          }
     p{
@@ -45,6 +45,7 @@ margin:0px;
 height:200px;
  width:100%;
  margin-bottom:0px;
+ vertical-align:bottom;
  
         }
          p{
