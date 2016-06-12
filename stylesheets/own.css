@@ -99,9 +99,10 @@ body {
         }
   .pb {
    display:block;
-   background-color:red;
-   margin-left:0px;
-   margin-right:55px;
+ background:rgb(255,255,255);
+   margin-left:0px 55px 0px 0px;
+   border:solid black 2px;
+  
 
        }
 h1 {
