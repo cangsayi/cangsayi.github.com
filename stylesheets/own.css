@@ -4,8 +4,7 @@
 display:block;
  margin-top:-10px;
 width:100%;
-vertical-align:top;
- overflow-x:hidden;
+height:80px;
          }
    img {
     display:block;
