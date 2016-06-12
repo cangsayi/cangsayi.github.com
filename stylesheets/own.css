@@ -30,7 +30,7 @@ display:bolck;
 
      }
 .hezi  {
-  margin:0% 5%; 
+  margin:0% 3%; 
   background:rgb(247,247,247);
   
   padding-bottom:10px;
@@ -74,7 +74,7 @@ height:200px;
      margin:0.5em 0 0 0;
      padding-left:3px;
          }
- 
+                     /*电脑模式下                     */
 body {
  border:0px;
   background:rgb(135,135,135); 
@@ -82,7 +82,9 @@ body {
 
      }
 .hezi  {
-  margin:0% 20%; 
+ width:800px;
+  margin-top:0%;
+  margin-left:55px;
   background:rgb(247,247,247);
  
   padding-bottom:10px;
