@@ -1,14 +1,15 @@
 @media only screen and (min-width:320px)
 {
  body{
-  margin:2.6% 5%; 
+ 
   background:rgb(250,250,250); 
 
 
      }
 .hezi  {
+  margin:2.6% 25%; 
   background:rgb(247,247,247);
-  text-align:left;
+  padding-left:5px;
   padding-bottom:10px;
        }
 h1 { 
@@ -24,6 +25,14 @@ h1 {
 
 @media only screen and (min-width:600px)
 {
+ section {
+  background:url(https://tb1.bdstatic.com/tb/%E6%AD%A6%E6%9E%97%E9%A3%8E%E6%A8%AA.jpg);
+ width:100%;
+ height:24%;
+ 
+ 
+         }
+ 
 body{
  
   background:rgb(250,250,250); 
@@ -31,9 +40,9 @@ body{
 
      }
 .hezi  {
-  margin:2.6% 20%; 
+  margin:0 25%; 
   background:rgb(247,247,247);
-   padding-left:5px;
+  padding-left:5px;
   padding-bottom:10px;
         }
 h1 {
