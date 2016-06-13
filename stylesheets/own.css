@@ -84,7 +84,7 @@ margin-left:55px;
          }
                      /*电脑模式下                     */
 body {
- border:0px;
+ margin-top:-5px;
   background:rgb(135,135,135); 
 
 
