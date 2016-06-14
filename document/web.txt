@@ -1,31 +1,31 @@
-encounter  Óöµ½£»
-anchor element  ÃèµãÔªËØ
-reliably  ¿É¿¿µÄ£»
-columns   Öù£»
-hypertext reference ³¬ÎÄ±¾ÒıÓÃhref
+ï»¿encounter  é‡åˆ°ï¼›
+anchor element  æç‚¹å…ƒç´ 
+reliably  å¯é çš„ï¼›
+columns   æŸ±ï¼›
+hypertext reference è¶…æ–‡æœ¬å¼•ç”¨href
 src:source;
-rel:relationship;¹ØÁª£»
-interactivity   ½»»¥ĞÔ
-toggle  ÇĞ»»
-Summary  ×Ü½á
- syntax  Óï·¨
-Manipulation ²Ù×÷
-quotes  ÒıºÅ
+rel:relationship;å…³è”ï¼›
+interactivity   äº¤äº’æ€§
+toggle  åˆ‡æ¢
+Summary  æ€»ç»“
+ syntax  è¯­æ³•
+Manipulation æ“ä½œ
+quotes  å¼•å·
 
 
 
 
-&nbsp//¿Õ¸ñ
-<br>»»ĞĞ
-<hr>Ë®Æ½Ïß
+&nbsp//ç©ºæ ¼
+<br>æ¢è¡Œ
+<hr>æ°´å¹³çº¿
 text-indent:2em
 line-height:1.5em
 margin:1em;
-<pre>»òÕßwhite-space:pre;±£³ÖÔ­À´¿Õ¸ñ»»ĞĞ£»
-white-space:nowrap;±£³Ö¿Õ¸ñ²»»»ĞĞ£»
+<pre>æˆ–è€…white-space:pre;ä¿æŒåŸæ¥ç©ºæ ¼æ¢è¡Œï¼›
+white-space:nowrap;ä¿æŒç©ºæ ¼ä¸æ¢è¡Œï¼›
 
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-¡¡¡¡Í¼Æ¬×ÔÊÊÓ¦£¬ÇÒ²»³¬¹ıÔ­Ê¼´óĞ¡£¬ĞèÒªÉèÖÃ×î´ó¿í¶È£¬´úÂëÈçÏÂ£º
+ã€€ã€€å›¾ç‰‡è‡ªé€‚åº”ï¼Œä¸”ä¸è¶…è¿‡åŸå§‹å¤§å°ï¼Œéœ€è¦è®¾ç½®æœ€å¤§å®½åº¦ï¼Œä»£ç å¦‚ä¸‹ï¼š
 img{
   width:100%;
   max-width:100%;
@@ -38,14 +38,14 @@ img{
     }
 
 
-clear:left»òÕßbothÓ¦ÓÃÓÚ²»ÏëÆäËüÔªËØ»·ÈÆ¸ÃÔªËØµÄÇé¿ö¡£
+clear:leftæˆ–è€…bothåº”ç”¨äºä¸æƒ³å…¶å®ƒå…ƒç´ ç¯ç»•è¯¥å…ƒç´ çš„æƒ…å†µã€‚
 
-ÊµÏÖÊ¡ÂÔºÅ£º
+å®ç°çœç•¥å·ï¼š
 white-space:nowrap;
 text-overflow:ellipsis;
 overflow:hidden;
 
-/* Êó±êÒÆÈëÊ±£¬Õ¹¿ª£¬ÒÆ³öÊ±Òş²Ø                         */
+/* é¼ æ ‡ç§»å…¥æ—¶ï¼Œå±•å¼€ï¼Œç§»å‡ºæ—¶éšè—                         */
 $(function () {
             $("#div1").mouseover(function () {
                 $(this).show("fast");
@@ -54,7 +54,7 @@ $(function () {
                 $(this).hide("fast");
             });
         });
-»òÕß£º$(function(){
+æˆ–è€…ï¼š$(function(){
 $('#div').hover(function(){
 function(){$(this).show()},
 function(){$(this).hide()}
@@ -62,7 +62,7 @@ function(){$(this).hide()}
 })
 
 
-ºÏ²¢À­ÒªÇóshell´úÂë£º
+åˆå¹¶æ‹‰è¦æ±‚shellä»£ç ï¼š
 git fetch origin
 git checkout -b my-fenzi  origin/my-fenzi
 git merge master
@@ -75,11 +75,11 @@ git push origin master
 
 
 
-git branch -D ·ÖÖ§Ãû   //É¾³ı±¾µØ·ÖÖ§
-git push origin :my-fenzhi//É¾³ıÔ¶³Ì·ÖÖ§
-¸öÈËÖ÷Ò³
-index.html(¸öÈË·¢±íµÄÒ»Ğ©ÎÄÕÂ¡¢²àÃæÊÇ¸öÈË½éÉÜºÍ¼òÀú£¬ÖĞ¼äÊÓÆµ¡¢Í·²¿ÆäËüÎäÊõ¡¢ÒôÀÖ¡¢Ìø°ÉµÈµÈÊ×Ò³ºÍÁ´½Ó)
-Í·²¿£ºÀ¸Ä¿£ºõÌÈ­µÀ|kickboxing|ÀøÖ¾£¨.pdf£©|Á´½ÓÆäËü³£ÓÃÍøÕ¾£¨³£ÓÃÍøÕ¾Á´½Ó¡¢¼ÆËã»úÀàµÄÕ¾µã¡¢¿¼ÑĞÀàµÄÕ¾µã¡¢Ğ¡¹¤¾ßÖÆ×÷£©|
+git branch -D åˆ†æ”¯å   //åˆ é™¤æœ¬åœ°åˆ†æ”¯
+git push origin :my-fenzhi//åˆ é™¤è¿œç¨‹åˆ†æ”¯
+ä¸ªäººä¸»é¡µ
+index.html(ä¸ªäººå‘è¡¨çš„ä¸€äº›æ–‡ç« ã€ä¾§é¢æ˜¯ä¸ªäººä»‹ç»å’Œç®€å†ï¼Œä¸­é—´è§†é¢‘ã€å¤´éƒ¨å…¶å®ƒæ­¦æœ¯ã€éŸ³ä¹ã€è·³å§ç­‰ç­‰é¦–é¡µå’Œé“¾æ¥)
+å¤´éƒ¨ï¼šæ ç›®ï¼šè·†æ‹³é“|kickboxing|åŠ±å¿—ï¼ˆ.pdfï¼‰|é“¾æ¥å…¶å®ƒå¸¸ç”¨ç½‘ç«™ï¼ˆå¸¸ç”¨ç½‘ç«™é“¾æ¥ã€è®¡ç®—æœºç±»çš„ç«™ç‚¹ã€è€ƒç ”ç±»çš„ç«™ç‚¹ã€å°å·¥å…·åˆ¶ä½œï¼‰|
 
 
 
