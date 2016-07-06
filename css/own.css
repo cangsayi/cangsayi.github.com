@@ -1,4 +1,74 @@
-@media only screen and (min-width:320px)
+.hengfu {
+ display:table-cell;
+height:220px;
+width:980px;
+max-width:100%;
+
+ margin:0px 15%;
+ 
+
+ 
+        }
+          img {
+    display:block;
+    padding-left:0px;
+    float:left;
+
+    
+    
+               }
+        
+         p{
+     text-indent:2em;
+     margin:0.5em 0 0 0;
+     padding-left:3px;
+         }
+                     /*电脑模式下                     */
+body {
+ margin-top:-5px;
+  background:rgb(135,135,135); 
+
+
+     }
+.hezi  {
+ /*width:920px;
+  margin-top:0%;
+  margin-left:55px;
+  background:rgb(247,247,247);
+ padding-bottom:10px;
+ float:center;*/
+width:980px;
+margin:0 202px;
+margin-bottom:20px;
+  background:rgb(247,247,247);
+  
+  padding-bottom:10px;
+
+ 
+        }
+  .pb {
+   display:block;
+ background:rgb(255,255,255);
+   margin-left:0px 55px 0px 0px;
+   border:solid black 2px;
+  
+
+       }
+h1 {
+ display:block;
+ padding-top:5px;
+
+  text-align:center;
+ background:rgb(244,244,244);
+margin-top:0px;
+   }
+h2 {
+ padding-left:3px;
+ 
+    }
+/*适合手机网站html需要应用meta =viewport:
+另外一种方式只使用一个css文件，例如：在本文件开头：@import url("mobile.css")  only screen and (max-device-width:600px) ;*/
+@media only screen and (min-width:320px) and (max-width:600px)
 {
 .hengfu {
 display:block;
@@ -52,70 +122,4 @@ margin:10px auto;
    
          }
   
-}
-
-
-
-
-@media only screen and (min-width:600px)
-{
-.hengfu {
- display:block;
-height:220px;
-width:1238px;
- margin:0px 55px;
- 
-
- 
-        }
-          img {
-    display:block;
-    padding-left:0px;
-    float:left;
-    
-    
-               }
-        
-         p{
-     text-indent:2em;
-     margin:0.5em 0 0 0;
-     padding-left:3px;
-         }
-                     /*电脑模式下                     */
-body {
- margin-top:-5px;
-  background:rgb(135,135,135); 
-
-
-     }
-.hezi  {
- width:920px;
-  margin-top:0%;
-  margin-left:55px;
-  background:rgb(247,247,247);
- padding-bottom:10px;
- float:left;
- 
-        }
-  .pb {
-   display:block;
- background:rgb(255,255,255);
-   margin-left:0px 55px 0px 0px;
-   border:solid black 2px;
-  
-
-       }
-h1 {
- display:block;
- padding-top:5px;
-
-  text-align:center;
- background:rgb(244,244,244);
-margin-top:0px;
-   }
-h2 {
- padding-left:3px;
- 
-    }
-
 }

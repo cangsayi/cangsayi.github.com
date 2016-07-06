@@ -73,6 +73,19 @@ git merge --no-ff my-fenzi
 git push origin master
 
 
+清除浮动样式：
+.clearfix:{
+	content:".";	
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+为父元素应用overflow:hidden
+浮动父元素
+在父元素内容的末尾添加非浮动元素，可以直接在标记中加，也可以给父元素添加clearfix类来加；
+
+
 
 
 git branch -D 分支名   //删除本地分支
@@ -80,7 +93,6 @@ git push origin :my-fenzhi//删除远程分支
 个人主页
 index.html(个人发表的一些文章、侧面是个人介绍和简历，中间视频、头部其它武术、音乐、跳吧等等首页和链接)
 头部：栏目：跆拳道|kickboxing|励志（.pdf）|链接其它常用网站（常用网站链接、计算机类的站点、考研类的站点、小工具制作）|
-
 
 
 
