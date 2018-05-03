@@ -4,6 +4,6 @@
 
 [nihao](http://www.baidu.com)
 ```javascript
-var nihao={ name:huang,
-            value:23;
+var nihao={ name:"huang",
+            value:23,
            };
