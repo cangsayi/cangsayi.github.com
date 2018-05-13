@@ -1,2 +1,1 @@
-# cangsayi.github.com
-personal website
+#个人简历  [预览](https://cangsayi.github.io)
