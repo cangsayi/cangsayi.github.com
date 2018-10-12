@@ -69,3 +69,12 @@ hr {
 	text-align: left;
 	width:90%;
 }
+.download {
+	position:fixed;
+	right:10px;
+	top:10px;
+	
+}
+.download  a{
+	color:#2a81ff;
+}
